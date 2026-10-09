@@ -5,6 +5,7 @@ old-slavic-library
 list-of-capoeira-moves
 spomenici
 capoeira-girl
+partisan-games/partisan-games.github.io
 partisans
 small-tanks-game
 audio-player
@@ -18,3 +19,4 @@ igrica-politicari
 bojanka
 kucaca-masina
 js-rain
+skolakoda/skolakoda.github.io

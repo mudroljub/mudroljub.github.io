@@ -19,15 +19,18 @@ try {
   if (startIndex < 0 || endIndex <= startIndex || html.indexOf(start, startIndex + 1) !== -1 || html.indexOf(end, endIndex + 1) !== -1) {
     throw new Error('U index.html nedostaju jedinstvene oznake projects:start i projects:end.');
   }
-  if (new Set(projects).size !== projects.length) {
+  const repositories = projects.map((project) => project.includes('/') ? project : `mudroljub/${project}`);
+  if (new Set(repositories).size !== repositories.length) {
     throw new Error('U projekti.txt postoje duplirane stavke.');
   }
 
-  const cards = projects.map((slug, position) => {
-    if (!/^[a-z0-9-]+$/.test(slug) || !Object.hasOwn(catalog, slug)) {
-      throw new Error(`Nepoznat projekat: ${slug}. Dodaj njegove podatke u projekti.json.`);
+  const cards = projects.map((entry, position) => {
+    const repository = repositories[position];
+    if (!/^[a-z0-9-]+\/[a-z0-9._-]+$/i.test(repository) || !Object.hasOwn(catalog, entry)) {
+      throw new Error(`Nepoznat projekat: ${entry}. Dodaj njegove podatke u projekti.json.`);
     }
-    const project = catalog[slug];
+    const [owner, slug] = repository.split('/');
+    const project = catalog[entry];
     if (typeof project.title !== 'string' || typeof project.description !== 'string') {
       throw new Error(`Projekat ${slug} nema ispravan title i description u projekti.json.`);
     }
@@ -36,7 +39,10 @@ try {
       throw new Error(`Nedostaje slika: ${image}`);
     }
     const title = escape(project.title);
-    const url = `https://mudroljub.github.io/${slug}/`;
+    const pagesHost = `${owner.toLowerCase()}.github.io`;
+    const projectUrl = slug.toLowerCase() === pagesHost ? `https://${pagesHost}/` : `https://${pagesHost}/${slug}/`;
+    const repositoryUrl = `https://github.com/${repository}`;
+    const url = escape(projectUrl);
     return `      <article class="project">
         <a class="preview" href="${url}" tabindex="-1" aria-hidden="true" target="_blank" rel="noopener noreferrer">
           <img src="${image}" alt="Snimak projekta ${title}" width="1200" height="760" loading="${position < 3 ? 'eager' : 'lazy'}" decoding="async">
@@ -45,7 +51,7 @@ try {
         <p>${escape(project.description)}</p>
         <div class="project-links">
           <a href="${url}" aria-label="Otvori projekat ${title}" target="_blank" rel="noopener noreferrer">Otvori projekat</a>
-          <a href="https://github.com/mudroljub/${slug}" aria-label="GitHub kod projekta ${title}" target="_blank" rel="noopener noreferrer">GitHub</a>
+          <a href="${escape(repositoryUrl)}" aria-label="GitHub kod projekta ${title}" target="_blank" rel="noopener noreferrer">GitHub</a>
         </div>
       </article>`;
   });

@@ -1,4 +1,8 @@
 {
+  "skolakoda/skolakoda.github.io": {
+    "title": "Škola koda",
+    "description": "Besplatni interaktivni kursevi i materijali za učenje programiranja na srpskom jeziku."
+  },
   "mladifilozof": {
     "title": "Mladi filozof",
     "description": "Zbirka pesama o filozofiji, ljudima i svakodnevnom životu."
@@ -42,6 +46,10 @@
   "capoeira-girl": {
     "title": "Capoeira Girl",
     "description": "Interaktivna 3D demonstracija pokreta, udaraca i akrobatike kapoeire."
+  },
+  "partisan-games/partisan-games.github.io": {
+    "title": "Partisan Games",
+    "description": "Zbirka malih 2D i 3D igara inspirisanih jugoslovenskim partizanima."
   },
   "partisans": {
     "title": "Partisans",
