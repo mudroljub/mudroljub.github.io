@@ -25,11 +25,7 @@
   },
   "list-of-capoeira-moves": {
     "title": "Capoeira Moves",
-    "description": "Pregled kapuera pokreta, sa tutorijalima."
-  },
-  "js-rain": {
-    "title": "Kiša",
-    "description": "Animacija kiše napravljena u JavaScriptu."
+    "description": "Spisak kapuera pokreta, sa tutorijalima."
   },
   "spomenici": {
     "title": "Spomenici",
@@ -37,7 +33,7 @@
   },
   "capoeira-girl": {
     "title": "Capoeira Girl",
-    "description": "Interaktivno 3D učenje kapuera pokreta."
+    "description": "Interaktivno učenje kapuera pokreta."
   },
   "partisan-games/partisan-games.github.io": {
     "title": "Partisan Games",
@@ -49,7 +45,7 @@
   },
   "spisak-za-planinarenje": {
     "title": "Spisak za planinarenje",
-    "description": "Spisak opreme, odeće i drugih stvari za odlazak u planinu."
+    "description": "Spisak neophodnih stvari za planinarenje."
   },
   "bojanka": {
     "title": "Bojanka",
@@ -57,14 +53,10 @@
   },
   "dylan-dog": {
     "title": "Dylan Dog",
-    "description": "Spisak epizoda i izdanja stripa, sa označavanjem pročitanih brojeva."
+    "description": "Spisak epizoda Dilana Doga, u različitim izdanjima."
   },
   "cyrillic-matrix": {
     "title": "Ćirilični Matrix",
     "description": "Animacija padajućih znakova iz Matrixa, u ćiriličnoj verziji."
-  },
-  "avantura-1941": {
-    "title": "Avantura 1941",
-    "description": "Tekstualna avantura o okupaciji Jugoslavije, u kojoj biraš šta ćeš učiniti."
   }
 }
