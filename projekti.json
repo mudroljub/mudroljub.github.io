@@ -1,4 +1,8 @@
 {
+  "skolakoda/programming-quotes": {
+    "title": "Programming Quotes",
+    "description": "Zbirka citata o programiranju i razvoju softvera."
+  },
   "skolakoda/skolakoda.github.io": {
     "title": "Škola koda",
     "description": "Besplatni interaktivni kursevi i materijali za učenje programiranja na srpskom jeziku."
@@ -77,7 +81,7 @@
   },
   "svetemisli": {
     "title": "Svete misli",
-    "description": "Zbirka mudrosti i duhovnih citata na više slovenskih jezika."
+    "description": "Zbirka duhovnih citata na međuslovenskom jeziku."
   },
   "spisak-za-planinarenje": {
     "title": "Spisak za planinarenje",
