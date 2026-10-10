@@ -1,13 +1,33 @@
 * { box-sizing: border-box; }
 
+:root {
+  color-scheme: dark;
+  --ink: #fff;
+  --text: #d0d9e2;
+  --link: #abd8ff;
+  --surface: #253342;
+  --rule: #526171;
+}
+
 body {
   margin: 0;
   color: var(--ink);
-  background: #fff;
+  background: #1a222c;
+  isolation: isolate;
   font-family: "Trebuchet MS", Arial, sans-serif;
   font-size: 17px;
   line-height: 1.6;
 }
+
+#particles-js {
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+}
+#particles-js canvas { display: block; }
+.site-header { background: #1a222c; }
+.skip-link { background: #1a222c; }
 
 a { color: var(--link); text-underline-offset: 4px; }
 a:hover { text-decoration-thickness: 2px; }

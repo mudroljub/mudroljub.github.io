@@ -1,27 +1,23 @@
 {
   "skolakoda/programming-quotes": {
     "title": "Programming Quotes",
-    "description": "Zbirka citata o programiranju i razvoju softvera."
+    "description": "Zbirka programerskih citata."
   },
   "skolakoda/skolakoda.github.io": {
     "title": "Škola koda",
-    "description": "Besplatni interaktivni kursevi i materijali za učenje programiranja na srpskom jeziku."
+    "description": "Besplatni materijali za učenje programiranja na srpskom jeziku."
   },
   "mladifilozof": {
     "title": "Mladi filozof",
-    "description": "Zbirka pesama o filozofiji, ljudima i svakodnevnom životu."
+    "description": "Zbirka refleksivne poezije."
   },
   "damjan-od-resnika": {
     "title": "Damjan od Resnika",
-    "description": "Autorska muzika, diskografija, crteži i fotografije muzičkog projekta."
+    "description": "Autorska muzika."
   },
   "anticka-filozofija": {
     "title": "Antička filozofija",
-    "description": "Filozofi, knjige, citati i rečnik pojmova iz antičke filozofije."
-  },
-  "wikipedia-api-docs": {
-    "title": "Wikipedia API docs",
-    "description": "Primeri za pretragu članaka, slika i citata preko Wikipedia API-ja."
+    "description": "Projekat prevođenja grčke filozofije na staroslovenski i srpski jezik."
   },
   "old-slavic-library": {
     "title": "Old Slavic Library",
@@ -29,19 +25,11 @@
   },
   "list-of-capoeira-moves": {
     "title": "Capoeira Moves",
-    "description": "Ilustrovani pregled pokreta kapoeire, sa nazivima i objašnjenjima."
-  },
-  "guerilla-simulator": {
-    "title": "Guerilla Simulator",
-    "description": "Projekat simulacije ustanka u Jugoslaviji, sa javnom dokumentacijom."
+    "description": "Pregled kapuera pokreta, sa tutorijalima."
   },
   "js-rain": {
     "title": "Kiša",
     "description": "Animacija kiše napravljena u JavaScriptu."
-  },
-  "vatra": {
-    "title": "Vatra",
-    "description": "Animacija plamena pomoću čestica."
   },
   "spomenici": {
     "title": "Spomenici",
@@ -49,23 +37,23 @@
   },
   "capoeira-girl": {
     "title": "Capoeira Girl",
-    "description": "Interaktivna 3D demonstracija pokreta, udaraca i akrobatike kapoeire."
+    "description": "Interaktivno 3D učenje kapuera pokreta."
   },
   "partisan-games/partisan-games.github.io": {
     "title": "Partisan Games",
-    "description": "Zbirka malih 2D i 3D igara inspirisanih jugoslovenskim partizanima."
+    "description": "Zbirka igrica koje pravim u slobodno vreme."
   },
-  "partisans": {
-    "title": "Partisans",
-    "description": "Vizuelni koncept 2D partizanske igre."
+  "svetemisli": {
+    "title": "Svete misli",
+    "description": "Zbirka duhovnih citata na međuslovenskom jeziku."
   },
-  "small-tanks-game": {
-    "title": "Tenkići",
-    "description": "Igra sa dva tenka: igraj protiv računara ili drugog igrača."
+  "spisak-za-planinarenje": {
+    "title": "Spisak za planinarenje",
+    "description": "Spisak opreme, odeće i drugih stvari za odlazak u planinu."
   },
-  "audio-player": {
-    "title": "Audio player",
-    "description": "Pusti svoju muziku u pregledaču i podesi bas, srednje i visoke tonove."
+  "bojanka": {
+    "title": "Bojanka",
+    "description": "Jednostavna aplikacija za crtanje u pregledaču."
   },
   "dylan-dog": {
     "title": "Dylan Dog",
@@ -78,61 +66,5 @@
   "avantura-1941": {
     "title": "Avantura 1941",
     "description": "Tekstualna avantura o okupaciji Jugoslavije, u kojoj biraš šta ćeš učiniti."
-  },
-  "svetemisli": {
-    "title": "Svete misli",
-    "description": "Zbirka duhovnih citata na međuslovenskom jeziku."
-  },
-  "spisak-za-planinarenje": {
-    "title": "Spisak za planinarenje",
-    "description": "Spisak opreme, odeće i drugih stvari za odlazak u planinu."
-  },
-  "savo-mitraljezac": {
-    "title": "Savo mitraljezac",
-    "description": "Demo scena pucačine iz prvog lica."
-  },
-  "igrica-politicari": {
-    "title": "Igrica političari",
-    "description": "Igrica sa političarima u skupštini."
-  },
-  "bojanka": {
-    "title": "Bojanka",
-    "description": "Jednostavna aplikacija za crtanje u pregledaču."
-  },
-  "partizani-animacija": {
-    "title": "Partizani i Nemci",
-    "description": "CSS animacija partizana i nemačkih vojnika."
-  },
-  "kucaca-masina": {
-    "title": "Kucaća mašina",
-    "description": "Animacija teksta koji se ispisuje kao na pisaćoj mašini."
-  },
-  "warplane-animation": {
-    "title": "Warplane Animation",
-    "description": "Animacija ratnog aviona u pregledaču."
-  },
-  "capoeira-angola": {
-    "title": "Capoeira Angola Beograd",
-    "description": "Predstavljanje škole kapoeire angole, sa informacijama o treninzima."
-  },
-  "game-ui": {
-    "title": "Game UI",
-    "description": "Vodič za korisnički interfejs u igrama."
-  },
-  "mazes-for-programmers-js": {
-    "title": "Mazes for Programmers",
-    "description": "JavaScript primeri algoritama za pravljenje i rešavanje lavirinata."
-  },
-  "miho": {
-    "title": "Bullo",
-    "description": "Grafički roman sa ilustracijama i avatarima."
-  },
-  "angular-wiki-search": {
-    "title": "Angular Wiki Search",
-    "description": "Pretraga Wikipedije napravljena u AngularJS-u."
-  },
-  "js-konzola": {
-    "title": "JavaScript konzola",
-    "description": "Jednostavna konzola za izvršavanje JavaScript izraza."
   }
 }
