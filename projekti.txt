@@ -3,7 +3,7 @@ mladifilozof
 skolakoda/skolakoda.github.io
 partisan-games/partisan-games.github.io
 old-slavic-library
-spomenici
+spomeniks
 skolakoda/programming-quotes
 anticka-filozofija
 svetemisli
