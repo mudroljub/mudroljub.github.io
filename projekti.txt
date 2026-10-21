@@ -1,4 +1,4 @@
-damjan-od-resnika
+damjanodresnika
 mladifilozof
 skolakoda/skolakoda.github.io
 partisan-games/partisan-games.github.io
