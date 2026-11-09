@@ -1,0 +1,8 @@
+[{
+      "relation": ["delegate_permission/common.handle_all_urls"],
+      "target": {
+        "namespace": "android_app",
+        "package_name": "io.github.mudroljub.spomeniks",
+        "sha256_cert_fingerprints": ["71:CA:FF:BD:65:87:BB:C7:CE:27:1F:E6:28:1D:99:93:6D:2E:1C:2C:70:7E:D7:A6:0E:3D:94:7F:A3:DD:A2:FF"]
+      }
+    }]
