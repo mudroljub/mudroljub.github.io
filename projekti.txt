@@ -5,7 +5,7 @@ partisan-games/partisan-games.github.io
 old-slavic-library
 spomeniks
 skolakoda/programming-quotes
-anticka-filozofija
+filozofija
 svetemisli
 capoeira-girl
 list-of-capoeira-moves
